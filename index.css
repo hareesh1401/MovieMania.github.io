@@ -4,6 +4,7 @@
     place-content: center;
     background-color: var(--dark1);
     overflow: hidden;
+    user-select: none;
 }
 .wrapper { 
     position: relative;
