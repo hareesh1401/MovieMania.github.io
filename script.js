@@ -65,7 +65,7 @@ function loadMovieDetails(){
             loader.classList.add("active")
             searchBox.value=""
             suggestion.classList.remove("active")
-            let pageResult = await fetch(`http://www.omdbapi.com/?i=${movie.id}&apikey=1a5197`)
+            let pageResult = await fetch(`https://www.omdbapi.com/?i=${movie.id}&apikey=1a5197`)
             let pageDetails= await pageResult.json()
             displayMovieDetails(pageDetails)
         })
