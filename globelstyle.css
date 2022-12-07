@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body,html{
+    font-size: 10px; 
+    background-color: var(--dark1);
+}
+input,button{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+:root{
+    --primary-clr:#CBBA1D;
+    --dark1:#1D1D1D;
+    --dark2:#262626;
+    --dark3:#707070;
+    --light1:#FFFFFF;
+    --bodysize:1.6rem;
+    --headingsize:2.8rem;
+    --border-light:1px solid var(--light1);
+    --border-dark:1px solid var(--dark3);
+    --shadow1:1px solid var(--dark3);
+}
+

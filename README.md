@@ -1,2 +1,2 @@
-# moviemania.github.io
- movie search bot
+# MovieMania
+ Movie Search Bot

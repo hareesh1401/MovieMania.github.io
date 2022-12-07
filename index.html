@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./globelstyle.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js" defer></script>
+</head>
+<body id="body">
+    <div class="wrapper">   
+        <div class="logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="searchbox">
+            <input type="text" placeholder="Search Movies..." id="search" onkeyup="findMovies()">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="suggestion">
+            <!-- DATA DYNAMICALLY FETCHED FROM API -->
+            <ul></ul>
+        </div>
+    </div>
+    <div class="page">
+        <div class="page-back" onclick="backPage()">
+            <i class="fa-solid fa-arrow-left" ></i>
+        </div>
+       <div class="page-nav">
+        <div class="page-logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+       </div>
+       <div class="page-section">
+       </div>
+    </div>
+    <div class="loader active">
+        <!-- SVG ICONS -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="329" height="56" viewBox="0 0 329 56" id="svg">
+            <g id="logo" transform="translate(-479 -198)">
+              <text id="MovieMania" transform="translate(554 240)" fill="#707070" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Movie</tspan><tspan y="0" fill="#cbba1d">Mania</tspan></text>
+              <g id="Group_1" data-name="Group 1" transform="translate(-146 29)">
+                <path id="Path_4" data-name="Path 4" d="M140.223,43.319l-15,14.228h7.373L122.562,67.576,142.551,54.83H131.3Z" transform="translate(520.443 139.152)" fill="#cbba1d"/>
+                <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(681 178) rotate(90)" fill="none" stroke="#cbba1d" stroke-width="1">
+                  <rect width="34" height="56" stroke="none"/>
+                  <rect x="0.5" y="0.5" width="33" height="55" fill="none"/>
+                </g>
+                <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(671 215) rotate(90)" fill="none" stroke="#cbba1d" stroke-width="1">
+                  <rect width="2" height="36" stroke="none"/>
+                  <rect x="0.5" y="0.5" width="1" height="35" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        <!-- SVG ICONS -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329" height="56" viewBox="0 0 329 56">
+  <g id="logo" transform="translate(-479 -198)">
+    <text id="MovieMania" transform="translate(554 240)" fill="#707070" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Movie</tspan><tspan y="0" fill="#cbba1d">Mania</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(-146 29)">
+      <path id="Path_4" data-name="Path 4" d="M140.223,43.319l-15,14.228h7.373L122.562,67.576,142.551,54.83H131.3Z" transform="translate(520.443 139.152)" fill="#cbba1d"/>
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(681 178) rotate(90)" fill="none" stroke="#cbba1d" stroke-width="1">
+        <rect width="34" height="56" stroke="none"/>
+        <rect x="0.5" y="0.5" width="33" height="55" fill="none"/>
+      </g>
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(671 215) rotate(90)" fill="none" stroke="#cbba1d" stroke-width="1">
+        <rect width="2" height="36" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1" height="35" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
